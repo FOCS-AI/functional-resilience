@@ -3,6 +3,12 @@ Combining Node with Functions in Optical Network Topology for Resilience under a
 
 # Topology and Function: Integrated Resilience of Optical Networks under Attack and Recovery
 
+Functional distribution over an optical network refers to the spatial allocation of network functions (e.g., core routers, data centers, IXPs) across the physical nodes of the topology. Functional distribution captures what role each node plays in delivering services.
+
+<img width="1036" height="440" alt="image" src="https://github.com/user-attachments/assets/09ee8034-463b-45f4-9cc2-921b1303b0e3" />
+
+- Node -> mapped to a set of functions -> functions have predefined tunable importance weights
+
 Existing topological metrics fail to capture service degradation due to the assumption of homogeneous placement of network functions. We propose resilience metrics
 that fill this gap and validate them on large-scale networks (USA, India, UK)
 
