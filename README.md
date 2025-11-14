@@ -24,4 +24,14 @@ Empirically, we show
 
 <img width="2530" height="940" alt="image" src="https://github.com/user-attachments/assets/9498650a-e138-468a-a3af-95da7b2235dd" />
 
+## Functional Resilience Enables Intelligent and Secure Network Design and Planning
 
+Functional resilience depends on the physical topology and on how network functions are heterogenously distributed across nodes. These metrics are actionable and enable operators to: 
+- (a) diagnose whether vulnerabilities originate from topological constraints or suboptimal placement of functions over nodes, 
+- (b) make informed cost-resilience trade-offs between centralised and distributed placements and 
+- (c) identify how each function contributes to aggregated network resilience. 
+
+Our validation on three large-scale optical networks (USA, India, UK) using our proposed service continuity and coverage metrics reveals: 
+- (i) distributed function placement improves resilience by 13–30% over centralised architectures; 
+- (ii) topology-based metrics underestimate service survivability and 
+- (iii) distributed placements exhibit higher resilience but slower recovery, revealing an operational trade-off.
