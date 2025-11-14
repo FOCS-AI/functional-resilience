@@ -31,6 +31,9 @@ Functional resilience depends on the physical topology and on how network functi
 - (b) make informed cost-resilience trade-offs between centralised and distributed placements and 
 - (c) identify how each function contributes to aggregated network resilience. 
 
+<img width="1114" height="339" alt="image" src="https://github.com/user-attachments/assets/5c6e7260-74af-4013-b6e6-0c41b96298e1" />
+
+
 Our validation on three large-scale optical networks (USA, India, UK) using our proposed service continuity and coverage metrics shows: 
 - (i) distributed function placement improves resilience by 13–30% over centralised architectures; 
 - (ii) topology-based metrics underestimate service survivability and 
