@@ -1,8 +1,26 @@
 # functional-resilience
 Combining Node with Functions in Optical Network Topology for Resilience under attack and recovery
 
+# Topology and Function: Integrated Resilience of Optical Networks under Attack and Recovery
+
+Existing topological metrics fail to capture service degradation due to the assumption of homogeneous placement of network functions. We propose resilience metrics
+that fill this gap and validate them on large-scale networks (USA, India, UK)
+
 <img width="3008" height="734" alt="image" src="https://github.com/user-attachments/assets/3e5f4828-1685-4688-94f7-7e71d6990444" />
 
+## Is topology alone sufficient to quantify network resilience, or must resilience be understood through the degradation of functions and services it supports? 
+
+Existing topological resilience metrics remain of limited operational value for three reasons: 
+- (a) no notion of service continuity, 
+- (b) assume all nodes are homogeneous whereas diverse function placements make them heterogeneous in nature, and 
+- (c) cannot differentiate between a topology with two different placements of network functions. 
+
+In this paper, we develop functional resilience metrics based on two operator-relevant dimensions (i) **service continuity** and (ii) **service coverage** evaluated under probabilistic node attacks and recovery. We present both per-function resilience metrics, which provide diagnostic insight into individual service vulnerabilities, and network-level indicators to assess overall system resilience. 
+
+Empirically, we show 
+- (i) topological metrics remain unchanged across contrasting placements; 
+- (ii) they decay faster than functional metrics, which reveals a premature-collapse bias; and 
+- (iii) during recovery, functional resilience is contingent on the site-recovery sequence.
 
 <img width="2530" height="940" alt="image" src="https://github.com/user-attachments/assets/9498650a-e138-468a-a3af-95da7b2235dd" />
 
