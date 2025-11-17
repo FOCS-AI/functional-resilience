@@ -7,7 +7,17 @@ Functional distribution over an optical network refers to the spatial allocation
 
 <img width="1036" height="440" alt="image" src="https://github.com/user-attachments/assets/09ee8034-463b-45f4-9cc2-921b1303b0e3" />
 
-- Node -> mapped to a set of functions -> functions have predefined tunable importance weights
+## Node -> mapped to a set of functions -> functions have tunable importance weights 
+This is done using a custom simulator where distributed and centralised function placements are generated
+
+<img width="2398" height="443" alt="image" src="https://github.com/user-attachments/assets/3c39bf36-68d5-4f7a-bd4e-7a9c8a9401bc" />
+
+Weights are assumed here based on relative importance of these functions within the network and can be tuned
+
+<img width="500" height="800" alt="image" src="https://github.com/user-attachments/assets/74b52c78-4d89-45d8-94fa-25170ffcd594" />
+
+
+## Do we need new metrics for functional resilience? 
 
 Existing topological metrics fail to capture service degradation due to the assumption of homogeneous placement of network functions. We propose resilience metrics
 that fill this gap and validate them on large-scale networks (USA, India, UK)
