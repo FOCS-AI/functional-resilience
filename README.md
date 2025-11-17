@@ -9,9 +9,6 @@ Functional distribution over an optical network refers to the spatial allocation
 
 ## Node -> mapped to a set of functions -> functions have tunable importance weights 
 This is done using a custom simulator where distributed and centralised function placements are generated
-
-<img width="2676" height="443" alt="image" src="https://github.com/user-attachments/assets/7dfb0e92-9f2a-4e83-a8c2-90eececcbfdf" />
-
 Weights are assumed here based on relative importance of these functions within the network and can be tuned
 
 <img width="500" height="800" alt="image" src="https://github.com/user-attachments/assets/74b52c78-4d89-45d8-94fa-25170ffcd594" />
